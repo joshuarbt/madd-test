@@ -25,6 +25,7 @@ body {
 }
 
 .expo-du-moment {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 60% 30%;
     align-items: end;
@@ -32,19 +33,22 @@ body {
 }
 
 .bloc {
-    min-height: 500px;
+    width: 100%;
+    height: 500px;
     background-color: var(--color-04);
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 
 .text-expo {
     max-width: 800px;
 }
 
-.hero-image {
-    position: absolute;
-    left: 500px;
-    bottom: -20px;
+.hero-image {   
     background:var(--color-01);
+    margin-bottom: -100px;
+    margin-right: 100px;
 }
 
 .hero-image img {
@@ -59,14 +63,17 @@ body {
     }
     .expo-du-moment {
         grid-template-columns: 1fr;
-        /* justify-items: center; */
-        gap: 30px;
-
+        gap: 70px;
     }
-    .hero-image {
-        position: static;
-        display: flex;
+
+    .bloc{
+        width: 100%;
+        align-items: center;
         justify-content: center;
+    }
+
+    .hero-image {
+        margin-bottom: -200px;
     }
     .text-expo {
         max-width: 100%;
