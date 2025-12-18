@@ -1,0 +1,6 @@
+footer {
+    background-color: var(--color-04);
+    color: var(--color-01);
+    padding: 20px;
+    margin-top: 200px;
+}

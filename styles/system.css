@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body {
+    background-color: var(--color-01);
+}
+
+.container {
+    max-width: 1770px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.voirplus {
+    font-size: 18px;
+    background-color: var(--color-04);
+    color: var(--color-01);
+    padding: 5px 10px;
+    display: block;
+    width: fit-content;
+    outline: none;
+    text-decoration: none;
+}
+
+.voirplus:hover {
+    border-bottom: 1px solid;
+}
+
+.expo-du-moment {
+    display: grid;
+    grid-template-columns: 1000px 600px;
+    align-items: end;
+    gap: 50px;
+}
+
+.bloc {
+    min-height: 500px;
+    background-color: var(--color-04);
+}
+
+.text-expo {
+    max-width: 800px;
+}
+
+.hero-image {
+    position: absolute;
+    left: 500px;
+    bottom: -20px;
+    background:var(--color-01);
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+}
