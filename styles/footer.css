@@ -6,3 +6,41 @@ footer {
     padding: 20px;
     margin-top: 200px;
 }
+
+footer.main-footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+/* faire des liens sans décoration pour faire apparaître le soulignement */
+
+footer a {
+    outline: none;
+    text-decoration: none;
+}
+
+/* désactivé la couleur des liens violets */
+
+footer .footer-lien a:visited {
+    color: var(--color-02);
+}
+
+/* faire le soulignement des liens */
+footer .footer-lien a:hover {
+    border-bottom: 1px solid;
+}
+
+/* disposition des éléments du header, logo et lien d'un côté*/
+footer.main-footer .main-navigation {
+    display: flex;
+    gap: 50px;
+}
+/* disposition des éléments des liens*/
+footer.main-footer nav ul {
+    display: flex;
+    gap: 90px;
+} 
