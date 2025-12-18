@@ -34,13 +34,16 @@ footer .footer-lien a:hover {
     border-bottom: 1px solid;
 }
 
-/* disposition des éléments du header, logo et lien d'un côté*/
-footer.main-footer .main-navigation {
+/* disposition des éléments du footer*/
+footer.main-footer .footer-navigation {
     display: flex;
-    gap: 50px;
+    gap: 150px;
+    justify-self: center;
+    align-items: center;
+    text-align: right;
 }
-/* disposition des éléments des liens*/
-footer.main-footer nav ul {
+
+footer .footer-lien {
     display: flex;
-    gap: 90px;
-} 
+    gap: 150px;
+}
