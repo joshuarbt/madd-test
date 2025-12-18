@@ -1,9 +1,12 @@
+
+/* stylisation de la typographie de base */
 * {
     font-size: 18px;
     font-family: "Inria Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .titre-1 {
     font-size: 48px;
     font-family: "Inria Sans", sans-serif;
@@ -43,6 +46,8 @@
 
 }
 
+/* responsive, mettre les textes un peu plus grands */
+/* mais pas trop sur de ce que je fais XD */
 @media screen and (max-width: 1080px) {
     .titre-3 {
         font-size: 48px;

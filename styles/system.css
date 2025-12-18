@@ -13,6 +13,8 @@ body {
     padding-right: 30px;
 }
 
+/*création d'un bouton "voir plus" */
+
 .voirplus {
     font-size: 18px;
     background-color: var(--color-04);
@@ -23,6 +25,8 @@ body {
     outline: none;
     text-decoration: none;
 }
+
+/* créer la mise en page en grille */
 
 .expo-du-moment {
     margin-top: 100px;
@@ -45,6 +49,7 @@ body {
     max-width: 800px;
 }
 
+/* faire un bloc image décalé */
 .hero-image {   
     background:var(--color-01);
     margin-bottom: -100px;
@@ -55,6 +60,8 @@ body {
     width: 500px;
     height: auto;
 }
+
+/* responsive */
 
 @media screen and (max-width: 1080px) {
 

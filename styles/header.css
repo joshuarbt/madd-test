@@ -1,3 +1,5 @@
+/* stylisation du header */
+
 header.main-header{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -8,29 +10,37 @@ header.main-header{
     text-transform: uppercase;
     color: var(--color-02);
 }
+/* faire des liens sans décoration pour faire apparaître le soulignement */
+
 header a {
     outline: none;
     text-decoration: none;
 }
 
+/* désactivé la couleur des liens violets */
+
 header nav a:visited {
     color: var(--color-02);
 }
 
+/* faire le soulignement des liens */
 header nav a:hover {
     border-bottom: 1px solid;
 }
 
+/* disposition des éléments du header, logo et lien d'un côté*/
 header.main-header .main-navigation {
     display: flex;
     gap: 50px;
 }
-
+/* disposition des éléments des liens*/
 header.main-header nav ul {
     display: flex;
     gap: 90px;
 } 
 
+/* faire disparaitre les liens en responsive */
+/* à remplacer par un menu hamburger */
 @media screen and (max-width: 1080px) {
     .main-header nav {
         visibility: hidden  ;
