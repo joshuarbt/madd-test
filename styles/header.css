@@ -30,3 +30,9 @@ header.main-header nav ul {
     display: flex;
     gap: 90px;
 } 
+
+@media screen and (max-width: 1080px) {
+    .main-header nav {
+        visibility: hidden  ;
+    }
+}

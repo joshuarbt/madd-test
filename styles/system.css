@@ -17,20 +17,16 @@ body {
     font-size: 18px;
     background-color: var(--color-04);
     color: var(--color-01);
-    padding: 5px 10px;
+    padding:10px 20px;
     display: block;
     width: fit-content;
     outline: none;
     text-decoration: none;
 }
 
-.voirplus:hover {
-    border-bottom: 1px solid;
-}
-
 .expo-du-moment {
     display: grid;
-    grid-template-columns: 1000px 600px;
+    grid-template-columns: 60% 30%;
     align-items: end;
     gap: 50px;
 }
@@ -54,4 +50,26 @@ body {
 .hero-image img {
     width: 500px;
     height: auto;
+}
+
+@media screen and (max-width: 1080px) {
+
+    body{
+        width: fit-content;
+    }
+    .expo-du-moment {
+        grid-template-columns: 1fr;
+        /* justify-items: center; */
+        gap: 30px;
+
+    }
+    .hero-image {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    .text-expo {
+        max-width: 100%;
+    }
+
 }
