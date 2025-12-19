@@ -34,6 +34,15 @@ body {
 .voirplus:hover {
     background-color: var(--color-05);
 }
+
+.voirplus img {
+    transform: rotate(0);
+    transition: transform 0.3s ease;
+}
+
+.voirplus:hover img {
+    transform: rotate(45deg);
+}
 /* créer la mise en page en grille */
 
 .expo-du-moment {
